@@ -1,10 +1,10 @@
 # SimpleGitCli
-**What is SimpleGitCli?**
-SimpleGitCli is a git tool to simplify your app.
-**What is the advantage of SimpleGitCli**
+### What is SimpleGitCli?
+SimpleGitCli is a git tool to simplify your daily git commands.
+### What is the advantage of SimpleGitCli
 SimpleGitCli is much faster to use than your normal `git clone` `git push`
 The cli includes commands such as pull <repo> push <repo> and a github repo cloning wizard.
-**Github repo cloning wizard**
+### Github repo cloning wizard
 The github repo cloning wizard is very usefull if you want a faster way to clone repositories from github
 ```$ clone-gh
 Enter username of repo: simpleGITCLI
