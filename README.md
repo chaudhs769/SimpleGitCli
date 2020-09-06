@@ -9,7 +9,8 @@ The cli includes commands such as pull <repo> push <repo> and a github repo clon
 
 The github repo cloning wizard is very usefull if you want a faster way to clone repositories from github
 
-```$ clone-gh
+```bash
+$ clone-gh
 Enter username of repo: simpleGITCLI
 Enter repo to clone: SimpleGitCli
 Enter foldername/path to clone into: (press enter for default) repos/simplegit
