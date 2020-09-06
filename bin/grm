@@ -1,0 +1,6 @@
+if [ "$1" = "update" ]; then
+        .git-update
+else
+    echo "usage: grm update 
+		grm update [repo]"
+    fi

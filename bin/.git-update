@@ -1,0 +1,12 @@
+#!/bin/bash
+FILE=./gitfile
+if [[ -f "$FILE" ]]; then
+  cp gitfile ./.gitfileworking
+  chmod +x ./.gitfileworking
+  ./.gitfileworking
+  echo "Finished"
+  chmod -x ./.gitfileworking
+  rm ./.gitfileworking
+else
+  echo "No gitfile found in current directory"
+fi

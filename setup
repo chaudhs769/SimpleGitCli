@@ -1,0 +1,37 @@
+#!/bin/bash
+if ! command -v curl &> /dev/null
+then
+    echo "curl not found, please read the docs at chaudhs@stpaulsschool.org.uk"
+    exit
+fi
+if ! command -v unzip &> /dev/null
+then
+    echo "unzip not found, please read the docs at chaudhs@stpaulsschool.org.uk"
+    exit
+fi
+if ! command -v git &> /dev/null
+then
+    echo "git not found, please read the docs at chaudhs@stpaulsschool.org.uk"
+    exit
+fi
+if ! command -v git &> /dev/null
+then
+    echo "git not found, please read the docs at chaudhs@stpaulsschool.org.uk"
+    exit
+fi
+bold=$(tput bold)
+normal=$(tput sgr0)
+# Ask the user for login details
+echo "By installing, you agree to abide by the license terms."
+read -p 'I agree to these terms and conditions: (type any key to confirm, "no" to deny)' no
+if [ $no = "no" ]; then
+echo "Sorry, you cannot continue the installation"
+exit 1
+else
+echo "setting up"
+fi
+git clone --quiet https://github.com/simpleGITCLI/SimpleGitCli.git
+echo "starting..."
+echo "Installed..."
+echo "Now test it by running clone-gh"
+echo "Read more at gitcli.github.io/docs"

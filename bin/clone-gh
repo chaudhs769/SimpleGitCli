@@ -1,0 +1,5 @@
+#!/bin/bash
+read -p "Enter username of repo: " user
+read -p "Enter repo to clone: " repo
+read -p "Enter foldername/path to clone into: (press enter for default)" file
+git clone https://github.com/$user/$repo.git $file
