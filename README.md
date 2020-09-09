@@ -22,6 +22,7 @@ remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 Unpacking objects: 100% (3/3), done.
 ```
 ### Contributing
-This is the docs branch.
+This is the website branch.
+Make your edits in the `www` directory
 Fork, Edit, Pull Request :thumbsup:
 
