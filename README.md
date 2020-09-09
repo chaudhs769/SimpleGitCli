@@ -22,5 +22,8 @@ remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 Unpacking objects: 100% (3/3), done.
 ```
 ### Contributing
-Fork, Edit, Pull request
+Fork, Edit, Pull request :thumbsup:
+If you are looking to contribute with the docs, checkout the `docs` branch
+
+If you want to contribute to the website, check out the `website` branch
 Help is needed, as this project is in its early stages.
