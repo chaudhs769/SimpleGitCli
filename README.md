@@ -1,4 +1,4 @@
-# SimpleGitCli - Work in progress 
+# SimpleGitCli - Docs branch
 ### What is SimpleGitCli?
 SimpleGitCli is a git tool to simplify your daily git commands.
 ### What is the advantage of SimpleGitCli
@@ -22,8 +22,6 @@ remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 Unpacking objects: 100% (3/3), done.
 ```
 ### Contributing
-Fork, Edit, Pull request :thumbsup:
-If you are looking to contribute with the docs, checkout the `docs` branch
+This is the docs branch.
+Fork, Edit, Pull Request :thumbsup:
 
-If you want to contribute to the website, check out the `website` branch
-Help is needed, as this project is in its early stages.

@@ -1,6 +1,0 @@
-#!/bin/bash
-git clone  --quiet https://$1@bitbucket.org/$1/$2.git $2> /dev/null
-cd $2
-git pull -q
-git checkout $3
-echo "installed $2"
